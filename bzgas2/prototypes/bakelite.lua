@@ -9,7 +9,7 @@ data:extend({
   {
     type = "item",
     name = "bakelite",
-    icon = "__bzgas__/graphics/icons/bakelite.png",
+    icon = "__bzgas2__/graphics/icons/bakelite.png",
     icon_size = 128,
     subgroup = "raw-material",
     order = "g[bakelite]",
@@ -33,7 +33,7 @@ data:extend({
   {
     type = "technology",
     name = "bakelite",
-    icon = "__bzgas__/graphics/technology/bakelite.png",
+    icon = "__bzgas2__/graphics/technology/bakelite.png",
     icon_size = 256,
     prerequisites = b_prereq,
     effects = {

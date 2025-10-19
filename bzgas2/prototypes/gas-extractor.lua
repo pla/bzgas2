@@ -35,7 +35,7 @@ data:extend({
   {
     type = "item",
     name = "gas-extractor",
-    icon = "__bzgas__/graphics/icons/gas-extractor.png",
+    icon = "__bzgas2__/graphics/icons/gas-extractor.png",
     icon_size = 128,
     subgroup = "extraction-machine",
     order = "b[fluids]-b[gas-extractor]",
@@ -52,7 +52,7 @@ data:extend({
   {
     type = "technology",
     name = "gas-extraction",
-    icon = "__bzgas__/graphics/technology/gas-processing.png",
+    icon = "__bzgas2__/graphics/technology/gas-processing.png",
     icon_size = 256,
     --prerequisites = ge_prereq,
     effects = {
@@ -67,7 +67,7 @@ data:extend({
   {
     type = "mining-drill",
     name = "gas-extractor",
-    icon = "__bzgas__/graphics/icons/gas-extractor.png",
+    icon = "__bzgas2__/graphics/icons/gas-extractor.png",
     icon_size = 128,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "gas-extractor"},
@@ -112,7 +112,7 @@ data:extend({
     base_render_layer = "lower-object-above-shadow",
     base_picture = {
       north = {
-        filename = "__bzgas__/graphics/entity/gas-extractor-base-n.png",
+        filename = "__bzgas2__/graphics/entity/gas-extractor-base-n.png",
         priority = "extra-high",
         width = 175,
         height = 179,
@@ -120,7 +120,7 @@ data:extend({
         shift = futil.by_pixel(0, -4),
       },
       south = {
-        filename = "__bzgas__/graphics/entity/gas-extractor-base-s.png",
+        filename = "__bzgas2__/graphics/entity/gas-extractor-base-s.png",
         priority = "extra-high",
         width = 175,
         height = 149,
@@ -128,7 +128,7 @@ data:extend({
         shift = futil.by_pixel(0, 13),
       },
       east = {
-        filename = "__bzgas__/graphics/entity/gas-extractor-base-e.png",
+        filename = "__bzgas2__/graphics/entity/gas-extractor-base-e.png",
         priority = "extra-high",
         width = 207,
         height = 129,
@@ -136,7 +136,7 @@ data:extend({
         shift = futil.by_pixel(8, 8),
       },
       west = {
-        filename = "__bzgas__/graphics/entity/gas-extractor-base-w.png",
+        filename = "__bzgas2__/graphics/entity/gas-extractor-base-w.png",
         priority = "extra-high",
         width = 207,
         height = 129,
@@ -149,7 +149,7 @@ data:extend({
         north = {
           layers = {
             {
-              filename = "__bzgas__/graphics/entity/gas-extractor-animated.png",
+              filename = "__bzgas2__/graphics/entity/gas-extractor-animated.png",
               priority = "extra-high",
               width = 267,
               height = 604,
@@ -161,7 +161,7 @@ data:extend({
             },
             {
               stripes = futil.multiplystripes(100, { {
-                filename = "__bzgas__/graphics/entity/gas-extractor-shadow.png",
+                filename = "__bzgas2__/graphics/entity/gas-extractor-shadow.png",
                 width_in_frames = 1,
                 height_in_frames = 1,
               } }),

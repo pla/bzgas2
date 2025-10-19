@@ -2,7 +2,7 @@ require("factsheet")
 
 -- Added by Brevven for bzgas
 -- local gd = "__gas-boiler__"
-local gd = "__bzgas__/gas-boiler"
+local gd = "__bzgas2__/gas-boiler"
 
 
 

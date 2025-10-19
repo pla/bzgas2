@@ -3,9 +3,9 @@
 local util = require("data-util");
 
 if deadlock then
-  deadlock.add_stack("bakelite",  "__bzgas__/graphics/icons/stacked/bakelite.png", "deadlock-stacking-1", 128)
+  deadlock.add_stack("bakelite",  "__bzgas2__/graphics/icons/stacked/bakelite.png", "deadlock-stacking-1", 128)
   if data.raw.item["phenol"] then
-    deadlock.add_stack("phenol",  "__bzgas__/graphics/icons/stacked/phenol.png", "deadlock-stacking-1", 128)
+    deadlock.add_stack("phenol",  "__bzgas2__/graphics/icons/stacked/phenol.png", "deadlock-stacking-1", 128)
   end
 end
 

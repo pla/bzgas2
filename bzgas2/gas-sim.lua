@@ -10,7 +10,7 @@
 
 data.raw["utility-constants"]["default"].main_menu_simulations["gas-rig"] = {
   checkboard = false,
-  save = "__bzgas__/menu-simulations/gas-rig-sim.zip", length = 15*60,
+  save = "__bzgas2__/menu-simulations/gas-rig-sim.zip", length = 15*60,
   init =
   [[
     local logo = game.surfaces.nauvis.find_entities_filtered{

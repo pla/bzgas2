@@ -16,7 +16,7 @@ if util.se6() then
       main_product = "se-methane-gas",
       icons = {
         {icon =  "__space-exploration-graphics__/graphics/icons/fluid/methane-gas.png", icon_size = 64},
-        {icon =  "__bzgas__/graphics/icons/gas.png", icon_size = 128, scale = 0.125, shift={-8,-8}},
+        {icon =  "__bzgas2__/graphics/icons/gas.png", icon_size = 128, scale = 0.125, shift={-8,-8}},
       },
       enabled = false,
       ingredients = {
@@ -33,7 +33,7 @@ if util.se6() then
       category = "chemistry",
       subgroup = "fluid-recipes",
       icons = {
-        {icon =  "__bzgas__/graphics/icons/formaldehyde.png", icon_size = 128, scale = 0.125},
+        {icon =  "__bzgas2__/graphics/icons/formaldehyde.png", icon_size = 128, scale = 0.125},
         {icon =  "__space-exploration-graphics__/graphics/icons/fluid/methane-gas.png", icon_size = 64, scale = 0.125, shift={-8,-8}},
       },
       enabled = false,

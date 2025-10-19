@@ -31,7 +31,7 @@ plant_i.icon_size = nil
 plant_i.icon_mipmaps = nil
 plant_i.icons = {
   {icon="__base__/graphics/icons/chemical-plant.png", icon_size=64},
-  {icon="__bzgas__/graphics/icons/chemical-plant-overlay.png", icon_size=64},
+  {icon="__bzgas2__/graphics/icons/chemical-plant-overlay.png", icon_size=64},
 }
 
 data.raw.item["basic-chemical-plant"] = plant_i
@@ -47,17 +47,17 @@ plant_e.name = "basic-chemical-plant"
 plant_e.minable = {mining_time = 0.5, result = "basic-chemical-plant"}
 plant_e.module_slots = 0
 plant_e.graphics_set.working_visualisations = {plant_e.graphics_set.working_visualisations[1], plant_e.graphics_set.working_visualisations[2]} -- no smoke
-plant_e.graphics_set.animation.north.layers[1].filename="__bzgas__/graphics/entity/hr-chemical-plant.png"
-plant_e.graphics_set.animation.south.layers[1].filename="__bzgas__/graphics/entity/hr-chemical-plant.png"
-plant_e.graphics_set.animation.east.layers[1].filename="__bzgas__/graphics/entity/hr-chemical-plant.png"
-plant_e.graphics_set.animation.west.layers[1].filename="__bzgas__/graphics/entity/hr-chemical-plant.png"
+plant_e.graphics_set.animation.north.layers[1].filename="__bzgas2__/graphics/entity/hr-chemical-plant.png"
+plant_e.graphics_set.animation.south.layers[1].filename="__bzgas2__/graphics/entity/hr-chemical-plant.png"
+plant_e.graphics_set.animation.east.layers[1].filename="__bzgas2__/graphics/entity/hr-chemical-plant.png"
+plant_e.graphics_set.animation.west.layers[1].filename="__bzgas2__/graphics/entity/hr-chemical-plant.png"
 plant_e.next_upgrade="chemical-plant"
 plant_e.icon = nil
 plant_e.icon_size = nil
 plant_e.icon_mipmaps = nil
 plant_e.icons = {
   {icon="__base__/graphics/icons/chemical-plant.png", icon_size=64},
-  {icon="__bzgas__/graphics/icons/chemical-plant-overlay.png", icon_size=64},
+  {icon="__bzgas2__/graphics/icons/chemical-plant-overlay.png", icon_size=64},
 }
 
 plant_e.energy_source = {

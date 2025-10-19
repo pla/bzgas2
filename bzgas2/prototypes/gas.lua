@@ -19,7 +19,7 @@ data:extend({
   {
     type = "resource",
     name = "gas",
-    icon =  "__bzgas__/graphics/icons/gas.png",
+    icon =  "__bzgas2__/graphics/icons/gas.png",
     icon_size = 128,
     flags = {"placeable-neutral"},
     category = "gas",
@@ -70,7 +70,7 @@ data:extend({
     {
       sheet =
       {
-        filename = "__bzgas__/graphics/entity/ores/hr-gas.png",
+        filename = "__bzgas2__/graphics/entity/ores/hr-gas.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -84,7 +84,7 @@ data:extend({
     {
       sheet =
       {
-        filename = "__bzgas__/graphics/entity/ores/hr-gas-effect.png",
+        filename = "__bzgas2__/graphics/entity/ores/hr-gas-effect.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -110,7 +110,7 @@ data:extend({
     emissions_multiplier = util.se6() and 1.1 or 0.75,
     base_color = {r=0.67, g=0.87, b=0.77},
     flow_color = {r=0.67, g=0.87, b=0.87},
-    icon =  "__bzgas__/graphics/icons/gas.png",
+    icon =  "__bzgas2__/graphics/icons/gas.png",
     icon_size = 128,
     order = "a[fluid]-f[gas]"
   },

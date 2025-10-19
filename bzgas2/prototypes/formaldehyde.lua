@@ -16,7 +16,7 @@ data:extend({
     fuel_value = "0.5kJ",
     base_color = {r=0.77, g=0.87, b=0.67},
     flow_color = {r=0.77, g=0.87, b=0.77},
-    icon =  "__bzgas__/graphics/icons/formaldehyde.png",
+    icon =  "__bzgas2__/graphics/icons/formaldehyde.png",
     icon_size = 128,
     order = "a[fluid]-f[formaldehyde]"
   },
@@ -38,7 +38,7 @@ data:extend({
   {
     type = "technology",
     name = "basic-chemistry",
-    icon = "__bzgas__/graphics/technology/formaldehyde.png",
+    icon = "__bzgas2__/graphics/technology/formaldehyde.png",
     icon_size = 256,
     prerequisites = {"gas-extraction"},
     effects = {

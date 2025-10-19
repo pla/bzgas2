@@ -15,7 +15,7 @@ data:extend(
         icon_size = 256,
       },
       {
-        icon = "__bzgas__/graphics/icons/gas.png",
+        icon = "__bzgas2__/graphics/icons/gas.png",
         icon_size = 128,
         scale = 1.4,
       }

@@ -9,7 +9,7 @@ if mods.Krastorio2 then
       main_product = "kr-hydrogen",
       icons = {
         {icon = "__Krastorio2Assets__/icons/fluids/hydrogen.png", icon_size = 64, icon_mipmaps = 4},
-        {icon =  "__bzgas__/graphics/icons/gas.png", icon_size = 128, scale = 0.125, shift={-8,-8}},
+        {icon =  "__bzgas2__/graphics/icons/gas.png", icon_size = 128, scale = 0.125, shift={-8,-8}},
       },
       enabled = false,
       ingredients = {
@@ -28,7 +28,7 @@ if mods.Krastorio2 then
       subgroup = "fluid-recipes",
       main_product = "formaldehyde",
       icons = {
-        {icon =  "__bzgas__/graphics/icons/formaldehyde.png", icon_size = 128, scale = 0.125},
+        {icon =  "__bzgas2__/graphics/icons/formaldehyde.png", icon_size = 128, scale = 0.125},
         {icon ="__Krastorio2Assets__/icons/fluids/biomethanol.png", icon_size = 64, scale = 0.125, icon_mipmaps = 4, shift={-5,-5}},
       },
       enabled = false,

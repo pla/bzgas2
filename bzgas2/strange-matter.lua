@@ -1,7 +1,7 @@
 local util = require("data-util");
 
 local ore = "gas"
-local ore_icon = "__bzgas__/graphics/icons/gas.png"
+local ore_icon = "__bzgas2__/graphics/icons/gas.png"
 
 if mods["StrangeMatter"] then
 data:extend({
