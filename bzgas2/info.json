@@ -12,7 +12,7 @@
     "? bztitanium >= 2.0.26",
     "? bzlead >= 2.0.28",
     "? bzzirconium >= 2.1.13",
-    "? bztungsten >= 0.6.0",
+    "? bztungsten2 >= 2.0.0",
     "? bzcarbon >= 2.0.21",
     "? bztin >= 2.1.15",
     "? warptorio2_expansion",
