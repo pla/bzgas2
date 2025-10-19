@@ -12,8 +12,7 @@ This mod mostly impacts the early game including electronic circuit creation. Wi
 - [cackling fiend](https://mods.factorio.com/user/cackling.fiend) (Update to 2.0)
 - [ElAdamo](https://mods.factorio.com/user/ElAdamo) (Gas-fired boiler: code, design, graphics) (code is public domain)
 - [Sakuro](https://github.com/sakuro) (expand options, icon tweaks)
-- [Benjah-bmm27](https://commons.wikimedia.org/wiki/User:Benjah-bmm27) ([Formaldehyde icon](https://commons.wikimedia.org/wiki/File:Formaldehyde-3D-vdW.png),
-  public domain)
+- [Benjah-bmm27](https://commons.wikimedia.org/wiki/User:Benjah-bmm27) ([Formaldehyde icon](https://commons.wikimedia.org/wiki/File:Formaldehyde-3D-vdW.png), public domain)
 
 ### Compatibility
 - [nihilistzsche](https://github.com/nihilistzsche)
