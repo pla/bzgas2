@@ -17,7 +17,7 @@ end
 
 -- Vanilla burner phase tweaks -- green circuits after electronics
 -- Electronic circuit recipe set below in compatibility script
-if not mods.Krastorio2 and not mods["aai-industry"] and not mods.bzaluminum and not mods.bzcarbon then
+if not mods.Krastorio2 and not mods["aai-industry"] and not mods.bzaluminum2 and not mods.bzcarbon then
   util.replace_ingredient("offshore-pump", "electronic-circuit", "copper-cable")
   util.replace_ingredient("lab", "electronic-circuit", "copper-cable")
   util.replace_ingredient("electric-mining-drill", "electronic-circuit", "copper-cable", 2, true)
@@ -38,7 +38,7 @@ if not mods.Krastorio2 and not mods["aai-industry"] and not mods.bzaluminum and 
   util.set_enabled("inserter", false)
   util.add_prerequisite("logistic-science-pack", "electronics")
 end
-if not mods.bzaluminum and not mods.bzcarbon then
+if not mods.bzaluminum2 and not mods.bzcarbon then
   util.replace_ingredients_prior_to("electronics", "electronic-circuit", "copper-cable", 2)
 end
 
