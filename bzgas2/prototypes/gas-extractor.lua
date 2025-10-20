@@ -7,7 +7,7 @@ local ge_ingredients = {
   {type="item", name="stone-brick", amount=4},
 }
 local ge_prereq = {"automation"}
-if mods.bzlead then table.insert(ge_ingredients, {type="item", name="lead-plate", amount=4}) end
+if mods["bzlead2"] then table.insert(ge_ingredients, {type="item", name="lead-plate", amount=4}) end
 if mods.Krastorio2 then 
   table.insert(ge_ingredients, {type="item", name="kr-sand", amount=10})
   ge_prereq = {"kr-stone-processing"}
