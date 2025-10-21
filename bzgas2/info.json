@@ -9,7 +9,7 @@
   "dependencies": [
     "base >= 2.0.0",
     "? bzfoundry2 >= 2.0.0",
-    "? bztitanium >= 2.0.26",
+    "? bztitanium2 >= 2.0.26",
     "? bzlead2 >= 2.0.29",
     "? bzzirconium >= 2.1.13",
     "? bztungsten2 >= 2.0.0",
