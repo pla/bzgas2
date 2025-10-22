@@ -1,10 +1,5 @@
 local util = require("data-util");
 
-b_prereq = {"basic-chemistry"}
-if data.raw.technology["foundry"] then
-  table.insert(b_prereq, "foundry")
-end
-
 data:extend({
   {
     type = "item",
@@ -35,7 +30,7 @@ data:extend({
     name = "bakelite",
     icon = "__bzgas2__/graphics/technology/bakelite.png",
     icon_size = 256,
-    prerequisites = b_prereq,
+    prerequisites = {"basic-chemistry"},
     effects = {
       {type = "unlock-recipe", recipe = "bakelite"},
     },
