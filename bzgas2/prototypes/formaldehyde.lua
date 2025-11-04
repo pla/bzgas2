@@ -7,6 +7,11 @@ local util = require("data-util");
 --   }
 -- })
 
+local prereq = {"gas-extraction"}
+if mods["Krastorio2"] then
+  table.insert(prereq, "automation-science-pack")
+end
+
 data:extend({
   {
     type = "fluid",
@@ -40,7 +45,7 @@ data:extend({
     name = "basic-chemistry",
     icon = "__bzgas2__/graphics/technology/formaldehyde.png",
     icon_size = 256,
-    prerequisites = {"gas-extraction"},
+    prerequisites = prereq,
     effects = {
       {type = "unlock-recipe", recipe = "basic-chemical-plant"},
       {type = "unlock-recipe", recipe = "formaldehyde"},

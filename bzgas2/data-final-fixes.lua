@@ -9,9 +9,9 @@ util.set_product_amount("se-core-fragment-omni", "gas", 24)
 
 -- Fix basic chemical plant fuels for K2
 if mods.Krastorio2 and
-data.raw["assembling-machine"]["basic-chemical-plant"] and
-data.raw["assembling-machine"]["basic-chemical-plant"].energy_source and
-data.raw["assembling-machine"]["basic-chemical-plant"].energy_source.fuel_categories then
+  data.raw["assembling-machine"]["basic-chemical-plant"] and
+  data.raw["assembling-machine"]["basic-chemical-plant"].energy_source and
+  data.raw["assembling-machine"]["basic-chemical-plant"].energy_source.fuel_categories then
   table.insert(data.raw["assembling-machine"]["basic-chemical-plant"].energy_source.fuel_categories , "kr-vehicle-fuel")
 end
 
