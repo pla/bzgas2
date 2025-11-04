@@ -30,13 +30,31 @@ if not mods.Krastorio2 and not mods["aai-industry"] and not mods.bzaluminum2 and
   util.add_ingredient("repair-pack", "copper-cable", 6)
   util.set_ingredient("repair-pack", "iron-gear-wheel", 3)
 
-  util.add_unlock_force("electronics", "electronic-circuit")
-  util.add_effect("electronics", { type = "unlock-recipe", recipe = "inserter" })
   util.add_effect("electronics", { type = "unlock-recipe", recipe = "long-handed-inserter" })
+  util.remove_recipe_effect("electronics", "copper-cable")
+  util.remove_recipe_effect("electronics", "lab")
+  util.remove_recipe_effect("electronics", "small-electric-pole")
   util.remove_recipe_effect("automation", "long-handed-inserter")
   util.set_enabled("electronic-circuit", false)
   util.set_enabled("inserter", false)
+  util.set_enabled("copper-cable", true)
+  util.set_enabled("lab", true)
+  util.set_enabled("small-electric-pole", true)
+  util.remove_prerequisite("automation-science-pack", "electronics")
+  local electronics = data.raw.technology["electronics"]
+  electronics.research_trigger = nil
+  electronics.unit = {
+    count = 10,
+    time = 10,
+    ingredients = {{ "automation-science-pack", 1 }}
+  }
+  util.remove_prerequisite("fast-inserter", "automation-science-pack")
+  util.remove_prerequisite("lamp", "automation-science-pack")
+  util.remove_prerequisite("logistic-science-pack", "automation-science-pack")
+  util.add_prerequisite("fast-inserter", "electronics")
+  util.add_prerequisite("lamp", "electronics")
   util.add_prerequisite("logistic-science-pack", "electronics")
+
 end
 if not mods.bzaluminum2 and not mods["bzcarbon2"] then
   util.replace_ingredients_prior_to("electronics", "electronic-circuit", "copper-cable", 2)

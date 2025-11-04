@@ -54,7 +54,7 @@ data:extend({
     name = "gas-extraction",
     icon = "__bzgas2__/graphics/technology/gas-processing.png",
     icon_size = 256,
-    --prerequisites = ge_prereq,
+    prerequisites = ge_prereq,
     effects = {
       {type = "unlock-recipe", recipe = "gas-extractor"},
     },
