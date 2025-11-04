@@ -1,5 +1,10 @@
 local util = require("data-util");
 
+local prereq = {"basic-chemistry"}
+if mods["bzfoundry2"] then
+  table.insert(prereq, "foundry")
+end
+
 data:extend({
   {
     type = "item",
@@ -30,7 +35,7 @@ data:extend({
     name = "bakelite",
     icon = "__bzgas2__/graphics/technology/bakelite.png",
     icon_size = 256,
-    prerequisites = {"basic-chemistry"},
+    prerequisites = prereq,
     effects = {
       {type = "unlock-recipe", recipe = "bakelite"},
     },
