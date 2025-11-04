@@ -27,6 +27,7 @@ if util.me.handcraft() then
   end
   local hcec = futil.table.deepcopy(data.raw.recipe["electronic-circuit"])
   hcec.name = "electronic-circuit-handcraft-only"
+  hcec.localized_name = { "item-name.electronic-circuit" }
   data:extend({hcec})
   util.set_icons("electronic-circuit-handcraft-only", 
   {
