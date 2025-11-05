@@ -15,6 +15,10 @@ if mods.Krastorio2 and
   table.insert(data.raw["assembling-machine"]["basic-chemical-plant"].energy_source.fuel_categories , "kr-vehicle-fuel")
 end
 
+if mods["aai-industry"] and not mods["Krastorio2"] then
+  util.remove_prerequisite("basic-chemistry", "basic-fluid-handling")
+end
+
 -- Vanilla burner phase tweaks -- green circuits after electronics
 -- Electronic circuit recipe set below in compatibility script
 if not mods.Krastorio2 and not mods["aai-industry"] and not mods.bzaluminum2 and not mods["bzcarbon2"] then

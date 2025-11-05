@@ -5,6 +5,8 @@ if mods["Krastorio2"] then
   table.insert(prereq, "steel-processing")
 elseif mods["bzfoundry2"] then
   table.insert(prereq, "foundry")
+elseif mods["aai-industry"] then
+  table.insert(prereq, "automation")
 end
 
 data:extend({

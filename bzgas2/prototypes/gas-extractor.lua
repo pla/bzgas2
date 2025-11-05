@@ -13,7 +13,7 @@ if mods.Krastorio2 then
   ge_prereq = {"kr-stone-processing"}
 elseif mods["aai-industry"] then
   table.insert(ge_ingredients, {type="item", name="sand", amount=10})
-  ge_prereq = {"sand-processing"}
+  ge_prereq = {"sand-processing", "basic-fluid-handling"}
 elseif data.raw.item["silica"] and data.raw.technology["silica-processing"] then
   table.insert(ge_ingredients, {type="item", name="silica", amount=20})
   ge_prereq = {"silica-processing"}

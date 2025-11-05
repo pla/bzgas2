@@ -18,7 +18,7 @@ util.add_ingredient("electronic-circuit", "bakelite", amt)
 util.set_icons("electronic-circuit", nil)
 
 
-if util.me.handcraft() then
+if util.me.handcraft() and not mods["aai-industry"] then
   data:extend({{ type = "recipe-category", name = "handcraft-only" }})
   for i, character in pairs(data.raw.character) do
     if character and character.crafting_categories then
