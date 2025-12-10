@@ -3,7 +3,7 @@ local util = require("data-util");
 local prereq = {"basic-chemistry"}
 if mods["Krastorio2"] then
   table.insert(prereq, "steel-processing")
-elseif mods["bzfoundry2"] then
+elseif util.is_foundry() then
   table.insert(prereq, "foundry")
 elseif mods["aai-industry"] then
   table.insert(prereq, "automation")
