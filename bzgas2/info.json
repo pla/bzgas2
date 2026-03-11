@@ -8,6 +8,7 @@
   "homepage": "https://discord.gg/ufvFUJtVwk",
   "dependencies": [
     "base >= 2.0.0",
+    "bzlib",
     "? bzfoundry2 >= 2.0.0",
     "? bztitanium2 >= 2.0.26",
     "? bzlead2 >= 2.0.29",
