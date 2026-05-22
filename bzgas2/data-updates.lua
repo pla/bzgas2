@@ -1,5 +1,4 @@
 require("recipe-updates")
-require("matter")
 -- require("omni")
 require("map-gen-preset-updates")
 require("strange-matter")
