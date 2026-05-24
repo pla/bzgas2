@@ -1,5 +1,4 @@
 require("recipe-updates")
--- require("omni")
 require("map-gen-preset-updates")
 require("strange-matter")
 require("compatibility/248k")
