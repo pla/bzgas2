@@ -1,6 +1,7 @@
 local me = {}
 
-me.name = "bzgas2"
+me.name = "bzgas"
+me.filename = "bzgas2"
 me.list = {}
 me.recipes = {"bakelite", "phenol", "phenol-from-oil"} -- formaldehyde excluded intentionally for theme
 
