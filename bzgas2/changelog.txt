@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 3.1.1
+Date: 02.08.2026
+  Compatibility:
+    - 2.1 update
+      Significant amounts of ElAdamo's code have been commented out and/or replaced since they aren't used by the gas-fired boiler and were causing problems with other mods, but this may need further work in the future.
+---------------------------------------------------------------------------------------------------
 Version: 2.1.2
 Date: 31.07.2026
   Info:

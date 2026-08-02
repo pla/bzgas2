@@ -28,7 +28,7 @@ data:extend({
   {
     type = "recipe",
     name = "formaldehyde",
-    category = "chemistry",
+    categories = {"chemistry"},
     subgroup = "fluid-recipes",
     enabled = false,
     ingredients = {

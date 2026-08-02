@@ -1,4 +1,4 @@
-require("factsheet")
+--require("factsheet")
 
 -- Added by Brevven for bzgas
 -- local gd = "__gas-boiler__"
@@ -6,7 +6,7 @@ local gd = "__bzgas2__/gas-boiler"
 
 
 
-gf_boiler_entity = util.table.deepcopy(data.raw.boiler.boiler)
+gf_boiler_entity = table.deepcopy(data.raw.boiler.boiler)
 gf_boiler_entity.name = "gas-boiler"
 gf_boiler_entity.icon = gd.."/graphics/icons/gas-boiler.png"
 gf_boiler_entity.icon_size = 32
@@ -80,7 +80,7 @@ gf_boiler_entity.energy_source = {
 			starting_frame_deviation = 0
 	}},
 	light_flicker = {
-		color = colors.gas_fire_glow,
+		color = {r=1,g=0.5,b=0.5}, --colors.gas_fire_glow
 		minimum_light_size = 0.1,
 		light_intensity_to_size_coefficient = 1
 	}
@@ -139,7 +139,5 @@ data:extend({
 	gf_boiler_recipe,
 	gf_boiler_entity
 })
-add_recipe_to_tech(
-	"fluid-handling",
-	"gas-boiler"
-)
+local util = require("data-util");
+util.add_unlock("fluid-handling", "gas-boiler")

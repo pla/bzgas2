@@ -1,14 +1,14 @@
 {
   "name": "bzgas2",
-  "version": "2.1.2",
-  "factorio_version": "2.0",
+  "version": "3.1.1",
+  "factorio_version": "2.1",
   "title": "Natural Gas",
   "description": "Adds a natural gas resource, along with early game plastic.",
-  "author": "Brevven, cackling fiend",
+  "author": "Brevven, cackling fiend, Morganite",
   "homepage": "https://discord.gg/ufvFUJtVwk",
   "dependencies": [
     "base >= 2.0.0",
-    "bzlib >= 1.2.3",
+    "bzlib >= 2.1.2",
     "? bzfoundry2 >= 2.0.0",
     "? bztitanium2 >= 2.0.26",
     "? bzlead2 >= 2.0.29",

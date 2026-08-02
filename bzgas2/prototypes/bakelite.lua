@@ -22,7 +22,7 @@ data:extend({
   {
     type = "recipe",
     name = "bakelite",
-    category = "chemistry",
+    categories = {"chemistry"},
     main_product = "bakelite",
     enabled = false,
     ingredients = {

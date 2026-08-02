@@ -34,7 +34,7 @@ if data.raw.item[mods["Krastorio2"] and "kr-coke" or "coke"] then
       {
         type = "recipe",
         name = "phenol",
-        category = cat,
+        categories = {cat},
         main_product = "phenol",
         enabled = false,
         icon = "__bzgas2__/graphics/icons/phenol.png", icon_size = 128,
@@ -52,7 +52,7 @@ if data.raw.item[mods["Krastorio2"] and "kr-coke" or "coke"] then
       {
         type = "recipe",
         name = "phenol",
-        category = cat,
+        categories = {cat},
         main_product = "phenol",
         enabled = false,
 		     icon = "__bzgas2__/graphics/icons/phenol.png", icon_size = 128,
@@ -85,7 +85,7 @@ if data.raw.item[mods["Krastorio2"] and "kr-coke" or "coke"] then
       name = "phenol-from-oil",
       localised_name = { "item-name.phenol" },
       main_product = "phenol",
-      category = "chemistry",
+      categories = {"chemistry"},
       enabled = false,
       icons = {
         {icon = "__bzgas2__/graphics/icons/phenol.png", icon_size = 128},
@@ -106,7 +106,7 @@ else
     {
       type = "recipe",
       name = "phenol",
-      category = "advanced-crafting",
+      categories = {"advanced-crafting"},
       main_product = "phenol",
       enabled = false,
       energy_required = 1,

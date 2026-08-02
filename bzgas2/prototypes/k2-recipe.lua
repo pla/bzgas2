@@ -4,7 +4,7 @@ if mods.Krastorio2 then
     {
       type = "recipe",
       name = "gas-reforming",
-      category = "chemistry",
+      categories = {"chemistry"},
       subgroup = "fluid-recipes",
       main_product = "kr-hydrogen",
       icons = {
@@ -24,7 +24,7 @@ if mods.Krastorio2 then
     {
       type = "recipe",
       name = "formaldehyde-methanol",
-      category = "chemistry",
+      categories = {"chemistry"},
       subgroup = "fluid-recipes",
       main_product = "formaldehyde",
       icons = {
@@ -48,7 +48,7 @@ if mods.Krastorio2 then
     {
       type = "recipe",
       name = "methane-reforming",
-      category = "chemistry",
+      categories = {"chemistry"},
       subgroup = "fluid-recipes",
       main_product = "kr-hydrogen",
       icons = {
