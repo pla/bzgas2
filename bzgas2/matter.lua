@@ -5,13 +5,13 @@ local util = require("data-util");
 local icon = {
     icon = "__bzgas2__/graphics/icons/gas.png",
     icon_size = 128,
-    scale = 1.4,
+    scale = 0.7,
   }
 
 local gas_ore_matter = 
 	{
-	  material = { type = "fluid", name = "gas", amount = 100 },
-	  matter_count = 5,
+    material = { type = "fluid", name = "gas", amount = 100 },
+    matter_count = 5,
     energy_required = 1,
     needs_stabilizer = false,
     unlocked_by = "gas-matter-processing"
