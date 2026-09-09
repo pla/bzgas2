@@ -87,12 +87,14 @@ data:extend({
     },
     output_fluid_box =
     {
+      production_type = "output",
       volume = 1000,
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
         {
           direction = defines.direction.north,
+          flow_direction = "output",
           positions = { {0, -1}, {1, 0}, {0, 1}, {-1, 0} }
         }
       }
