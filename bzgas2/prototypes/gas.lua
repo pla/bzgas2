@@ -104,6 +104,7 @@ data:extend({
   {
     type = "fluid",
     name = "gas",
+    subgroup = "fluid",
     default_temperature = 25,
     heat_capacity = "0.1kJ",
     fuel_value = "1000kJ",

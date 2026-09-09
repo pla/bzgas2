@@ -16,6 +16,7 @@ data:extend({
   {
     type = "fluid",
     name = "formaldehyde",
+    subgroup = "fluid",
     default_temperature = 25,
     heat_capacity = "0.1kJ",
     fuel_value = "0.5kJ",
